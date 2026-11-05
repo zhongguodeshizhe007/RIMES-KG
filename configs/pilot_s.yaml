@@ -1,0 +1,29 @@
+# NOT a publication claim. Real full CoDEx-S but short training and partial query evaluation if --max-queries is used.
+dataset: s
+seeds: [11]
+split_seed: 123
+label_fraction: 0.25
+p1_rhos: [0.20]
+p1_decoders: [distmult, complex]
+p2_methods: [erm, uniform, gate_only, degree, relation, shuffled_d, rimes, graph_off]
+validation_queries: 48
+train:
+  device: cpu
+  dim: 16
+  layers: 1
+  bases: 2
+  steps: 4
+  batch_size: 12
+  negatives: 4
+  lr: 0.005
+  weight_decay: 0.0001
+  rho: 0.20
+  lambda_kl: 0.7
+  temperature: 2.0
+  gate_temperature: 0.5
+  gate_delta: 0.0
+  warmup_steps: 2
+  top_templates: 4
+  clip_grad: 5.0
+  max_weight: 1.0
+  dropout: 0.0

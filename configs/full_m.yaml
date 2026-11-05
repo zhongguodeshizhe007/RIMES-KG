@@ -1,0 +1,29 @@
+# CoDEx-M minimal second-graph replication; full head/tail ranking.
+dataset: m
+seeds: [11, 17, 23]
+split_seed: 123
+label_fraction: 0.25
+p1_rhos: [0.20]
+p1_decoders: [complex]
+p2_methods: [erm, uniform, rimes]
+validation_queries: 10310
+train:
+  device: auto
+  dim: 64
+  layers: 1
+  bases: 4
+  steps: 1500
+  batch_size: 96
+  negatives: 32
+  lr: 0.003
+  weight_decay: 0.0001
+  rho: 0.20
+  lambda_kl: 0.70
+  temperature: 2.0
+  gate_temperature: 0.5
+  gate_delta: 0.0
+  warmup_steps: 100
+  top_templates: 8
+  clip_grad: 5.0
+  max_weight: 1.0
+  dropout: 0.0
