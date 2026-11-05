@@ -1,0 +1,64 @@
+{
+  "scope": "OFFICIAL_FULL",
+  "figures": {
+    "Fig1": {
+      "source": "Equal-K masks, unequal two-hop evidence (schematic)",
+      "file": "figures/Fig1.png"
+    },
+    "Fig2": {
+      "source": "P1/P2 information boundaries (protocol diagram)",
+      "file": "figures/Fig2.png"
+    },
+    "Fig3": {
+      "source": "RIMES teacher-student and normalized KL (method diagram)",
+      "file": "figures/Fig3.png"
+    },
+    "Fig4": {
+      "source": "P1 fixed-test MRR under missingness (RQ1 empirical)",
+      "file": "figures/Fig4.png"
+    },
+    "Fig5": {
+      "source": "Evidence survival vs ranking degradation (RQ2 empirical)",
+      "file": "figures/Fig5.png"
+    },
+    "Fig6": {
+      "source": "P2 held-out family robustness (RQ3 empirical)",
+      "file": "figures/Fig6.png"
+    },
+    "Fig7": {
+      "source": "Ablation and computational cost tradeoffs (efficiency frontier)",
+      "file": "figures/Fig7.png"
+    }
+  },
+  "tables": {
+    "Table0": {
+      "source": "Prior-work novelty boundary",
+      "file": "tables/Table0.csv"
+    },
+    "Table1": {
+      "source": "Datasets and protocol metadata",
+      "file": "tables/Table1.csv"
+    },
+    "Table2": {
+      "source": "Mask profiles and matched null residuals",
+      "file": "tables/Table2.csv"
+    },
+    "Table3": {
+      "source": "P1 training-observation effects and paired comparisons",
+      "file": "tables/Table3.csv"
+    },
+    "Table4": {
+      "source": "RQ2 matched evidence and association analysis",
+      "file": "tables/Table4.csv"
+    },
+    "Table5": {
+      "source": "P2 robust results, clean/held-out tradeoffs and GPU cost",
+      "file": "tables/Table5.csv"
+    },
+    "Table6": {
+      "source": "RIMES ablation and evidence allocation controls",
+      "file": "tables/Table6.csv"
+    }
+  },
+  "warning": "Fig1-3 are schematic; Fig4-7 are empirical data-driven. Not-run tables are marked NOT RUN."
+}

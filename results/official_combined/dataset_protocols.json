@@ -1,0 +1,88 @@
+[
+  {
+    "scope": "OFFICIAL_FULL",
+    "C_hash": "43119c22b441c7e6dc584f640c1844baf05920b44f792ab14dee3abba26bafc7",
+    "L_hash": "fb7023fd787a6ccb89a5bfe290a89cc460927b8797a53c6d1899866b39f8efb1",
+    "C_size": 24666,
+    "L_size": 8222,
+    "missing_relation_ids_in_C": [
+      41
+    ],
+    "missing_relation_ids_in_L": [
+      24,
+      40
+    ],
+    "C_fraction": 0.75,
+    "L_fraction": 0.25,
+    "grouped_inverse_pairs": true,
+    "official_counts": {
+      "source": "F:\\PythonFiles\\Gemini\\DASFAA 2027\\data\\codex-s",
+      "official": true,
+      "entities": 2034,
+      "relations": 42,
+      "train": 32888,
+      "valid": 1827,
+      "test": 1828,
+      "train_sha256_encoded": "2cd9b934cec3976dcaf861759677dfa39d835ed835fde7fbda7fba279448b11d",
+      "valid_sha256_encoded": "4d20650dc8b254552dc4c16e4cc870d926d67a6d3999efb4bee795e5abf420b5",
+      "test_sha256_encoded": "9e06af077cd5e1356bd37d6a726e414857ed8ddee4540d51e57ef60fcc4b8522"
+    },
+    "p1": "retrain on independent Tobs",
+    "p2": "fixed context C, supervised labels L",
+    "fit_templates_from": "C+L training facts only",
+    "mask_train_families": [
+      "M1",
+      "M2"
+    ],
+    "mask_heldout_families": [
+      "M3",
+      "M4"
+    ],
+    "filtering": "evaluation-only all truths",
+    "full_entity_ranking": true,
+    "tie_policy": "average",
+    "max_queries": null
+  },
+  {
+    "scope": "OFFICIAL_FULL",
+    "C_hash": "d5fdf9f0c7849be7fba03a525d56f0d9ec25472f9f6044c785d9d6adebba8c48",
+    "L_hash": "c9eb46499b47786b40f9e70314e1e234e12714603e9c3cd0cc16caf7a089c319",
+    "C_size": 139187,
+    "L_size": 46397,
+    "missing_relation_ids_in_C": [],
+    "missing_relation_ids_in_L": [
+      7,
+      49
+    ],
+    "C_fraction": 0.7499946116044487,
+    "L_fraction": 0.25000538839555136,
+    "grouped_inverse_pairs": true,
+    "official_counts": {
+      "source": "F:\\PythonFiles\\Gemini\\DASFAA 2027\\data\\codex-m",
+      "official": true,
+      "entities": 17050,
+      "relations": 51,
+      "train": 185584,
+      "valid": 10310,
+      "test": 10311,
+      "train_sha256_encoded": "28b7ab5ce909a2f3f321c1725d19a6716febce217670f1bdd0c5c8db78cade99",
+      "valid_sha256_encoded": "3b8552ec166638cbd0bc54a8286312b51941879d2e6f75c052e91d9bf3b8d956",
+      "test_sha256_encoded": "3c0bdbbc971ba423a4d5bc7c5f770d54ec6feac90598590e7ead68835c333a49"
+    },
+    "p1": "retrain on independent Tobs",
+    "p2": "fixed context C, supervised labels L",
+    "fit_templates_from": "C+L training facts only",
+    "mask_train_families": [
+      "M1",
+      "M2"
+    ],
+    "mask_heldout_families": [
+      "M3",
+      "M4"
+    ],
+    "filtering": "evaluation-only all truths",
+    "full_entity_ranking": true,
+    "tie_policy": "average",
+    "max_queries": null
+  }
+]

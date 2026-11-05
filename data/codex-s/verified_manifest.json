@@ -1,0 +1,17 @@
+{
+  "source": "F:\\PythonFiles\\Gemini\\DASFAA 2027\\data\\codex-s",
+  "official": true,
+  "entities": 2034,
+  "relations": 42,
+  "train": 32888,
+  "valid": 1827,
+  "test": 1828,
+  "train_sha256_encoded": "2cd9b934cec3976dcaf861759677dfa39d835ed835fde7fbda7fba279448b11d",
+  "valid_sha256_encoded": "4d20650dc8b254552dc4c16e4cc870d926d67a6d3999efb4bee795e5abf420b5",
+  "test_sha256_encoded": "9e06af077cd5e1356bd37d6a726e414857ed8ddee4540d51e57ef60fcc4b8522",
+  "original_file_sha256": {
+    "train": "64f93b7f314f3936a6f65739721429db3f6a7c8f5a1e1104ec3bb544f7434f59",
+    "valid": "3831c0e57daef03c3a18cdd1a72e370b496f696c5218883d35c7d2ab8a6a772c",
+    "test": "27127fcb34688c4778e88a39ef3c9b540807da846021e9d9685660ac1838aca1"
+  }
+}

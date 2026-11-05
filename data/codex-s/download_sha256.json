@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/tsafavi/codex/master/data/triples",
+  "files": {
+    "train.txt": "64f93b7f314f3936a6f65739721429db3f6a7c8f5a1e1104ec3bb544f7434f59",
+    "valid.txt": "3831c0e57daef03c3a18cdd1a72e370b496f696c5218883d35c7d2ab8a6a772c",
+    "test.txt": "27127fcb34688c4778e88a39ef3c9b540807da846021e9d9685660ac1838aca1"
+  }
+}
